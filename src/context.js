@@ -1,7 +1,5 @@
 import React, {useState, useContext, useEffect} from 'react'
 import useFetch from "./useFetch";
-// make sure to use https
-// REACT_APP_MOVIE_API_KEY=7f556eb6
 export const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIE_API_KEY}`
 
 const AppContext = React.createContext()
